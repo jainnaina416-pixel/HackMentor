@@ -1,0 +1,15 @@
+# Environment & Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Storage & Databases
+*.db
+*.sqlite3
+chroma_db/
+uploads/

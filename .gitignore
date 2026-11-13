@@ -1,0 +1,31 @@
+# Environment & Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+wheels/
+.pytest_cache/
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Storage & Databases
+*.db
+*.sqlite3
+chroma_db/
+backend/chroma_db/
+uploads/
+backend/uploads/
+
+# Frontend
+hackmentor/node_modules/
+hackmentor/dist/

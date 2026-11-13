@@ -1,0 +1,56 @@
+[
+  {
+    "title": "CropGuard AI",
+    "tagline": "Offline-first mobile web app for leaf disease classification with localized treatment guides.",
+    "description": "Smallholder farmers in rural regions lose significant portions of their yield to late diagnosis of plant diseases. CropGuard runs a quantized TFLite model directly inside the browser using WebAssembly. It works with zero cellular network after initial download. Features include leaf photography, confidence scoring, local language explanation cards, and an emergency volunteer notification system over SMS if the disease is critical.",
+    "technologies": ["React", "FastAPI", "TensorFlow Lite", "WebAssembly", "TailwindCSS"],
+    "tags": ["Agriculture", "Computer Vision", "Offline-first", "Mobile Web"],
+    "awards": ["1st Place Overall - Global Impact Hackathon", "Best Use of Edge AI"],
+    "url": "https://devpost.com/software/cropguard-ai"
+  },
+  {
+    "title": "PulseTriage",
+    "tagline": "Real-time AI patient triage and emergency room queue prioritization.",
+    "description": "Hospital emergency rooms struggle with overcrowding and subjective intake assessment. PulseTriage ingests vital signs, symptoms, and medical history to predict patient deterioration risk using an ensemble gradient boosting model. It provides nursing staff with an explainable risk breakdown and integrates with FHIR HL7 medical records standards.",
+    "technologies": ["Python", "FastAPI", "scikit-learn", "FHIR API", "PostgreSQL", "Next.js"],
+    "tags": ["Healthcare", "Predictive Analytics", "Emergency Care"],
+    "awards": ["Best Healthcare Hack - HealthTech 2024"],
+    "url": "https://devpost.com/software/pulsetriage"
+  },
+  {
+    "title": "CarbonPulse",
+    "tagline": "Automated carbon footprint tracking from cloud infrastructure logs and developer commits.",
+    "description": "Engineers often do not realize the carbon intensity of their cloud compute jobs. CarbonPulse connects to AWS CloudWatch and GitHub Actions to calculate kilowatt-hours and carbon emissions using electricity maps grid intensity APIs. It recommends greener regions and off-peak batch execution windows to cut carbon by up to 35%.",
+    "technologies": ["Node.js", "Python", "AWS Lambda", "GitHub API", "Open-Meteo"],
+    "tags": ["Climate", "DevOps", "Sustainability", "Green Software"],
+    "awards": ["Green Tech Grand Prize"],
+    "url": "https://devpost.com/software/carbonpulse"
+  },
+  {
+    "title": "VoiceVault",
+    "tagline": "Multilingual voice-first banking assistant for unbanked and non-literate communities.",
+    "description": "Millions of individuals are excluded from formal banking due to literacy barriers and complex mobile UIs. VoiceVault allows users to check balances, transfer funds, and pay utility bills entirely via voice prompts in 8 regional dialects. Uses Whisper for local speech-to-text, fine-tuned intent classification, and voice biometric authentication.",
+    "technologies": ["OpenAI Whisper", "FastAPI", "React Native", "WebRTC", "SQLite"],
+    "tags": ["Fintech", "Accessibility", "Speech", "Inclusion"],
+    "awards": ["Inclusion Award - FinHack 2024"],
+    "url": "https://devpost.com/software/voicevault"
+  },
+  {
+    "title": "EduScribe",
+    "tagline": "Interactive AI tutor transforming whiteboard photos and lecture audio into structured flashcards and quizzes.",
+    "description": "Students struggle to review messy whiteboard diagrams and fast-paced university lectures. EduScribe processes classroom photos with Vision LLMs, transcribes recorded lectures, and automatically synthesizes spaced-repetition flashcards and interactive self-quizzes.",
+    "technologies": ["Python", "FastAPI", "LangChain", "ChromaDB", "React"],
+    "tags": ["Education", "Vision AI", "Spaced Repetition"],
+    "awards": [],
+    "url": "https://devpost.com/software/eduscribe"
+  },
+  {
+    "title": "DisasterSync",
+    "tagline": "Decentralized mesh communication network for disaster relief search and rescue teams.",
+    "description": "Natural disasters routinely knock out standard cellular towers. DisasterSync establishes a Bluetooth Low Energy and LoRa peer-to-peer mesh network between emergency responders' smartphones, allowing real-time GPS survivor tagging, supply tracking, and vital status updates without internet access.",
+    "technologies": ["Flutter", "Bluetooth LE", "LoRa", "SQLite", "Mapbox"],
+    "tags": ["Disaster Relief", "IoT", "Mesh Networking", "Offline"],
+    "awards": ["Hardware/IoT Winner - RescueHacks 2024"],
+    "url": "https://devpost.com/software/disastersync"
+  }
+]
