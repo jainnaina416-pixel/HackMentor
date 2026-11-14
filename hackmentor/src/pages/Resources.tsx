@@ -14,8 +14,8 @@ const categories: ResourceCategory[] = [
   "Documentation",
   "Libraries",
   "Tutorials",
-  "Research Papers",
-  "Similar Projects",
+  "Research papers",
+  "Similar projects",
   "Tools",
 ];
 
@@ -62,8 +62,8 @@ export function ResourcesPage() {
       <div className="chip-row flex flex-wrap gap-2 mb-6">
         <button
           className={`chip px-3 py-1.5 rounded-full text-xs font-medium border transition-colors ${cat === "All"
-              ? "bg-purple-600 border-purple-500 text-white"
-              : "bg-white/5 border-white/10 text-white/70 hover:bg-white/10 hover:text-white"
+            ? "bg-purple-600 border-purple-500 text-white"
+            : "bg-white/5 border-white/10 text-white/70 hover:bg-white/10 hover:text-white"
             }`}
           type="button"
           onClick={() => setCat("All")}
@@ -74,8 +74,8 @@ export function ResourcesPage() {
           <button
             key={c}
             className={`chip px-3 py-1.5 rounded-full text-xs font-medium border transition-colors ${cat === c
-                ? "bg-purple-600 border-purple-500 text-white"
-                : "bg-white/5 border-white/10 text-white/70 hover:bg-white/10 hover:text-white"
+              ? "bg-purple-600 border-purple-500 text-white"
+              : "bg-white/5 border-white/10 text-white/70 hover:bg-white/10 hover:text-white"
               }`}
             type="button"
             onClick={() => setCat(c)}
