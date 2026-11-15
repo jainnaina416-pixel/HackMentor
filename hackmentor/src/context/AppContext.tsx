@@ -250,11 +250,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
         }
 
         applySession(authSession);
-
         const existing = loadState();
-        if (!existing) {
-          loadDemo();
-        }
+if (!existing && isDemoMode()) {
+  loadDemo();
+}
+ 
       } catch (e) {
         setError(e instanceof Error ? e.message : "Google sign in failed");
         throw e;
